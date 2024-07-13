@@ -8,10 +8,10 @@ from dotenv import load_dotenv
 load_dotenv()
 
 # Twitter API credentials
-API_KEY = os.getenv('TWITTER_API_KEY')
-API_SECRET = os.getenv('TWITTER_API_SECRET')
-ACCESS_TOKEN = os.getenv('TWITTER_ACCESS_TOKEN')
-ACCESS_TOKEN_SECRET = os.getenv('TWITTER_ACCESS_TOKEN_SECRET')
+API_KEY = os.getenv('A56VF8V8Kre9Pz4of4Qoh6Wf8')
+API_SECRET = os.getenv('tRt5n2TOB2RQhf492TECBnO2rRAv7gVGiWVMejydYXBgiNLxKy')
+ACCESS_TOKEN = os.getenv('1793290897893085184-4co25BNFToHEbOZZeAMTSCTIJI7BvJ')
+ACCESS_TOKEN_SECRET = os.getenv('rvNNGQ1PYBjp1qx3AZv93YYxUAZrrwTnlEBtGBwVKtLLU')
 
 # FastAPI instance
 app = FastAPI()
